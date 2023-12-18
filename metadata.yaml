@@ -1,0 +1,16 @@
+composer:
+  last: Scheibl
+  first: Johann Adam
+title: Missa in G minor
+genre: mass
+scoring: S, A, T, B (coro), vl, 2 trb, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 8
+    rism: 600037819
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/729.html
+    license: public domain
+    principal: true
+imslp:
