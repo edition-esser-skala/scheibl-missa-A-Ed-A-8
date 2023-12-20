@@ -14,6 +14,7 @@ markKyrieDaCapo = {
 
 tempoKyrie = \tempoMarkup "Allegro"
   tempoChriste = \tempoMarkup "[Tempo deest]"
+tempoGloria = \tempoMarkup "Allegro"
 
 
 \include "notes/trb1.ly"
