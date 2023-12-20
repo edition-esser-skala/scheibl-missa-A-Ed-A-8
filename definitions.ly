@@ -15,6 +15,11 @@ markKyrieDaCapo = {
 tempoKyrie = \tempoMarkup "Allegro"
   tempoChriste = \tempoMarkup "[Tempo deest]"
 tempoGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoMortuorum = \tempoMarkup "Adagio"
+  tempoEtVitam = \tempoMarkup "Allegro"
 
 
 \include "notes/trb1.ly"

@@ -127,3 +127,89 @@ GloriaBassoLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %25 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoCredo
+    r2 r8 \mvTr d'16\pE^\solo c b8 a16 a
+    g8 f!16 f es8 d c d16([ es)] f8. f16
+    b,4 d8 c16([ b)] f' f f8 r4
+    r2 r4 r8 a(
+    b) a \appoggiatura a g4 f g8 a16([ g)] %5
+    f8. e16 f8 e16([ d)] g8 g r4
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtIncarnatus
+      \mvTr b,4\fE^\tutti b8 b b8. b16 b8 b \noBreak
+    h8. h16 h4 c c %10
+    b'!8. b16 b8 b a!8. a16 a8 a
+    as4 g8([ es)] b'2~
+    b4 as8[ f]^\critnote c4. c8
+    f2 des8. des16 des8 des
+    d8. d16 d8 d es4 es8 es %15
+    b8. b16 b8 b b4 b
+    r d( e) f
+    r e( fis) g
+    g,8. g16 g8 g g4. g8 \noBreak
+    c1\fermata \bar "||" %20
+    \tempoEtResurrexit R1 \noBreak
+    r4 r8 \mvTr es\pE^\solo es8. es16 es8 f
+    g8. g16 a8 a b b,16 b r4
+    r2 g'8 c, d8. c16
+    h8([ c] g'4) d r %25
+    r2 r4 \mvDl b'8.\fE^\tutti b16
+    b8 fis g b16 a g8 b16([ a)] g8 f
+    es4 d r g8 d
+    es8. es16 f4 g8 es f4
+    b, r r2 %30
+    r8 \mvDl b'\pE^\solo a g f8. g16 b,8 b
+    c8. c16 f4 r2
+    g8. g16 a8 g16([ f)] g8 f16([ es)] f8 es16([ d)]
+    es([ d)] c8 \tempoMortuorum fis8 fis g2
+    c,8 \tempoEtVitam \mvDl \mvTrh c'\fE^\tuttiE b! a16 a g8 d es8. es16 %35
+    d4 g8.[ f!16] es[^\critnote d c8] f8.[ es16]
+    d[ c b!8] es8.[ d16] c[ b a8] d8.[ c16]
+    b8 c d4 g, r\fermata \bar "|." %38 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si -- bi -- li --
+  um, u -- ni -- ge -- ni -- tum,
+  De --
+  um ve -- rum, con -- sub -- %5
+  stan -- ti -- a -- lem Pa -- tri.
+
+  Et in -- car -- na -- tus est de
+  Spi -- ri -- tu San -- cto %10
+  ex Ma -- ri -- a Vir -- gi -- ne, et
+  ho -- mo fa --
+  _ _ ctus
+  est. Cru -- ci -- fi -- xus
+  e -- ti -- am pro no -- bis sub %15
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- sus,
+  pas -- sus,
+  pas -- sus et se -- pul -- tus
+  est. %20
+
+  Et i -- te -- rum ven --
+  tu -- rus est cum glo -- ri -- a,
+  et vi -- vi -- fi --
+  can -- tem, %25
+  si -- mul
+  ad -- o -- ra -- tur et con -- glo -- ri -- fi --
+  ca -- tur, qui lo --
+  cu -- tus est per Pro -- phe --
+  tas, %30
+  et a -- po -- sto -- li -- cam Ec --
+  cle -- si -- am,
+  in re -- mis -- si -- o -- nem pec -- ca --
+  to -- rum, mor -- tu -- o --
+  rum, et vi -- tam ven -- tu -- ri sae -- cu -- %35
+  li, a -- _ _
+  _ _ _ _
+  _ men, a -- men. %38 finis
+}

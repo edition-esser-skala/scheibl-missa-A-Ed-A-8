@@ -49,3 +49,36 @@ GloriaViolino = {
     g g g fis g4 r\fermata \bar "|." %25 finis
   }
 }
+
+CredoViolino = {
+  \relative c' {
+    \clef soprano
+    \key g \minor \time 4/4 \tempoCredo
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \tempoEtIncarnatus d'4\fE d8 f as,8. as16 as8 as \noBreak
+    as8. as16 as4 g g %10
+    g8. g16 g8 g c8. c16 c8 c
+    d4 es es d
+    c c c4. c8
+    c2 des8. des16 des8 des
+    h8. h16 h8 h b4 b8 b %15
+    b8. b16 b8 b b4 b
+    h2 b4 a
+    cis2 c4 h
+    d8. g,16 g8 g g4. g8 \noBreak
+    g1\fermata \bar "||" %20
+    \tempoEtResurrexit R1*5 %25
+    r2 r4 d'8.\fE d16
+    d8 d d d16 c b8 d16 c b c d8~
+    d c d4 d8 a b8. b16
+    b8 c4 \once \tieDashed d8~ d c c4
+    b r r2 %30
+    R1*3
+    r4 \tempoMortuorum r r2
+    r8 \tempoEtVitam g g g16 a b c d8 d8. c16 %35
+    d8 d8.[ c16] h8 c c8.[ b16] a8
+    b b8.[ a16] g8 a a8.[ g16] fis8
+    g g g fis g4 r\fermata \bar "|." %38 finis
+  }
+}

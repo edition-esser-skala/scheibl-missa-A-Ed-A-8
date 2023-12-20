@@ -49,3 +49,36 @@ GloriaTromboneI = {
     d8 es d2 r4\fermata \bar "|." %25 finis
   }
 }
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoCredo
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \tempoEtIncarnatus f4\fE f8 f f2 \noBreak
+    f4 f2 es4 %10
+    e4. e8 es4. es8
+    f4 g f4. g8
+    e4 f f4. e8
+    f2 f4. f8
+    f2 es!4 es8 es %15
+    es4 d es d
+    r as' g f
+    r g a g
+    d es d2 \noBreak
+    c1\fermata \bar "||" %20
+    \tempoEtResurrexit R1*5 %25
+    r2 r4 f\fE
+    f8 a g g g4. a8
+    g4 fis r g8 f
+    g4 a g8 g f4
+    f r r2 %30
+    R1*3
+    r4 \tempoMortuorum r r2
+    r8 \tempoEtVitam es d fis g fis g4 %35
+    fis g2 f4~
+    f es2 d4~
+    d8 es d4 d r\fermata \bar "|." %38 finis
+  }
+}

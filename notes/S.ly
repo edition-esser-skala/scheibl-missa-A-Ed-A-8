@@ -131,53 +131,96 @@ GloriaSopranoLyrics = \lyricmode {
   men, a -- men. %25 finis
 }
 
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoCredo
+    r2 \mvTr a'4\pE^\soloE b8 c
+    d d r c16([ b)] a8( b4 a8)
+    b4 f8 d' c4 c
+    b b8 b \appoggiatura b a4 a
+    r8 f'4 e8 e8. d16 d8([ cis)] %5
+    d4 r b2
+    a8 a a cis?16 e f([ e)] d8 r a \noBreak
+    a g16 a a4 a r\fermata \bar "||"
+    \tempoEtIncarnatus
+      \mvTr d4\fE^\tutti d8 f as,8. as16 as8 as \noBreak
+    as8. as16 as4 g g %10
+    g8. g16 g8 g c8. c16 c8 c
+    d4 es es d
+    c c c4. c8
+    c2 des8. des16 des8 des
+    h8. h16 h8 h b4 b8 b %15
+    b8. b16 b8 b b4 b
+    h2( b4) a!
+    cis2( c4) h
+    d8. g,16 g8 g g4. g8 \noBreak
+    g1\fermata \bar "||" %20
+    \tempoEtResurrexit R1 \noBreak
+    r4 \mvTr b8\pE^\soloE c a! b16 b g8 a
+    b b16 b c8 c16 c d([ c)] b8 r a~
+    a d d16([ c)] b a b8 a a8. a16
+    g4 g8 b! d4 es8 es %25
+    d4( c8.) c16 b4 \mvDl d8.\fE^\tutti d16
+    d8 d d d16 c b8 d16([ c)] b([ c)] d8
+    d([ c)] d4 d8 a b8. b16
+    b8 c4( d) c8 c4
+    b r r2 %30
+    R1
+    c4 c8 a16 c f,4 d'8 c
+    \appoggiatura c b4 a r2
+    \after 4 \tempoMortuorum R1
+    r8 \tempoEtVitam \mvTr g\fE^\tuttiE g g16 a b([ c)] d8 d8. c16 %35
+    d8 d8.([ c16] h8) c c8.([ b16] a8)
+    b b8.([ a16] g8) a a8.([ g16] fis8
+    g) g g([ fis)] g4 r\fermata \bar "|." %38 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Fa -- cto -- rem
+  coe -- li et ter --
+  rae, et ex Pa -- tre,
+  De -- um de De -- o,
+  ge -- ni -- tum non fa -- %5
+  ctum, et
+  pro -- pter no -- stram sa -- lu -- tem de --
+  scen -- dit de coe -- lis.
+  Et in -- car -- na -- tus est de
+  Spi -- ri -- tu San -- cto %10
+  ex Ma -- ri -- a Vir -- gi -- ne, et
+  ho -- mo fa -- ctus,
+  ho -- mo fa -- ctus
+  est. Cru -- ci -- fi -- xus
+  e -- ti -- am pro no -- bis sub %15
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- sus,
+  pas -- sus,
+  pas -- sus et se -- pul -- tus
+  est. %20
+
+  Et a -- scen -- dit in coe -- lum,
+  se -- det ad dex -- te -- ram Pa -- tris, et __
+  in Spi -- ri -- tum San -- ctum, Do -- mi --
+  num, qui cum Pa -- tre et %25
+  Fi -- li -- o si -- mul
+  ad -- o -- ra -- tur et con -- glo -- ri -- fi --
+  ca -- tur, qui lo -- cu -- tus
+  est per __ Pro -- phe --
+  tas, %30
+
+  con -- fi -- te -- or u -- num ba --
+  ptis -- ma,
+
+  et vi -- tam ven -- tu -- ri sae -- cu -- %35
+  li, a -- men, a --
+  men, a -- men, a --
+  men, a -- men. %38 finis
+}
 
 
-% ## Credo
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
-
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
-
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
 
 
 % ## Sanctus
