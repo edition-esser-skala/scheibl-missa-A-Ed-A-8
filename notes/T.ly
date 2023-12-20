@@ -181,3 +181,201 @@ CredoTenoreLyrics = \lyricmode {
   _ _ _ _
   _ men, a -- men. %38 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoSanctus
+    r2 \mvTr a~\pE^\solo
+    a4 g c2~
+    c4 b es2~
+    es4 d8[ c] h2
+    c4 es2 d8[ c] %5
+    b2 a4 \tempoSanctusB r
+    \mvTr g8\fE^\tutti g16 g g8 g g4 a~
+    a b8[ d] d4. d8
+    d \tempoPleni b b d es4 es8 es
+    d d r4 b c %10
+    a d e8 e16 e d4
+    d8 h([ c)] c16 c d2~
+    d8. c16 c8([ g)] g g16 g g4 \noBreak
+    g1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*17 %31
+    \mvTr g1~\fE^\tuttiE
+    g4 fis g a
+    b2 a
+    r g~ %35
+    g4 fis g( a)
+    b2( a)
+    g r
+    r f'!
+    \once \tieDashed e1~ %40
+    e4 d2 cis4
+    d e f2
+    e1~
+    e4 d2 cis4
+    d1~ %45
+    d2 \once \tieDashed c!~
+    c b
+    a1
+    b2 r
+    r4 a( b c) %50
+    b2 c
+    b4 c d2
+    r4 a( b) c
+    b2 c
+    b4 c \once \tieDashed d2~ %55
+    d c~
+    c b
+    R1
+    b~
+    b4 a b c %60
+    d2 c
+    r b2~
+    b4 a b( c)
+    d2( c)
+    b b %65
+    c c
+    d d
+    d1
+    d2 d
+    c1 %70
+    b2 c
+    r d
+    c1
+    b2 c
+    d2. h4 %75
+    g1
+    f'!
+    es2 c
+    \once \tieDashed d1~^\critnote
+    d4 c2 h4 %80
+    c d es2
+    d1~
+    d4 c2( h4)
+    c( d) es2
+    es es %85
+    d4 c b c
+    d c b2
+    c1
+    d2 c
+    b4( c) d2 %90
+    c1
+    d2 c
+    b a~
+    a g4 b
+    \once \tieDashed d1~ %95
+    d \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \newSpacingSection
+      r2 \mvTr es\pE^\soloE es \noBreak
+    d d d
+    c c r %100
+    r f,( as)
+    b1 c2
+    as b2. b4
+    es,2 r es'
+    d d d %105
+    c2. c4 c2
+    c b4 a! g fis
+    g1 cis2
+    d1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  _ _
+  _ _ _ %5
+  _ ctus
+  Do -- mi -- nus De -- us Sa -- _
+  _ _ ba --
+  oth. Ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ %10
+  _ _ _ ri -- a tu --
+  a, glo -- ri -- a, glo --
+  ri -- a, __ glo -- ri -- a tu --
+  a.
+
+  O -- %32
+  _ _ _
+  san -- na
+  in __ %35
+  _ ex --
+  cel --
+  sis,
+  o --
+  san -- %40
+  _ _
+  _ _ na
+  in __
+  _ ex --
+  cel -- %45
+  _
+  _
+  _
+  sis,
+  o -- %50
+  san -- _
+  _ _ na
+  in __ ex --
+  cel -- _
+  _ _ _ %55
+  _
+  sis,
+
+  o --
+  _ _ _ %60
+  san -- na
+  in __
+  _ ex --
+  cel --
+  sis, o -- %65
+  san -- na
+  in ex --
+  cel --
+  sis, o --
+  san -- %70
+  _ na
+  in
+  ex --
+  cel -- _
+  _ _ %75
+  _
+  _
+  sis, o --
+  san --
+  _ _ %80
+  _ _ na
+  in __
+  ex --
+  cel -- sis,
+  in ex -- %85
+  cel -- _ _ _
+  _ _ sis,
+  o --
+  _ _
+  san -- na %90
+  in __
+  _ ex --
+  cel -- _
+  _ _
+  _ %95
+
+  sis.
+  Be -- ne --
+  di -- ctus, qui
+  ve -- nit %100
+  in __
+  no -- mi --
+  ne Do -- mi --
+  ni, qui
+  ve -- nit in %105
+  no -- mi -- ne
+  Do -- _ _ _ _
+  _ mi --
+  ni. %109 finis
+}

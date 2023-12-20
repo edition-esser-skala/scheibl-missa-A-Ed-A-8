@@ -213,3 +213,138 @@ CredoBassoLyrics = \lyricmode {
   _ _ _ _
   _ men, a -- men. %38 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoSanctus
+    R1*6 %6
+    \mvTr h8\fE^\tuttiE h16 h h8 h c2
+    \once \tieDashed d~ d4. d8
+    g, \tempoPleni g' g g c4 f,!8 f
+    b b, r4 g'4. a8 %10
+    fis4. g8 c, c16 c d4
+    g,8 g'[ es c] h2
+    c8. c16 c4 c8 c16 c c4 \noBreak
+    g1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*24 %38
+    \mvTr d'1~\fE^\tuttiE
+    d4 cis d e %40
+    f2 e
+    r d~
+    d4 cis d( e)
+    f2( e)
+    d f %45
+    e a4( g)
+    fis( d) g2
+    g( fis)
+    g b
+    a1~ %50
+    a4 g2 fis4
+    g a b2
+    a1~
+    a4 g2( fis4)
+    g2 h %55
+    c4 b a g
+    a f! b2~
+    b a
+    b1
+    R1*9 %68
+    g1~
+    g4 fis g a %70
+    b2 a
+    r g~
+    g4 fis g( a)
+    b2 a
+    g( f!) %75
+    es1
+    d
+    c2 es(
+    d) g,
+    c d %80
+    es4 d c2
+    d g,
+    c d
+    es4 d c2
+    c'4( b!) a!( g) %85
+    fis d g a
+    b a g2
+    d1
+    d
+    d %90
+    d
+    d
+    es2 a
+    d, g
+    d1~ %95
+    d \noBreak
+    g,\breve*1/2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \newSpacingSection
+      R1.*11 %108
+    R1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  Do -- mi -- nus De -- us Sa -- %7
+  _ ba --
+  oth. Ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ %10
+  _ _ _ ri -- a tu --
+  a, glo -- _
+  _ ri -- a, glo -- ri -- a tu --
+  a.
+
+  O -- %39
+  _ _ _ %40
+  san -- na
+  in __
+  _ ex --
+  cel --
+  sis, o -- %45
+  san -- na __
+  in __ ex --
+  cel --
+  sis, o --
+  san -- %50
+  _ _
+  _ _ na
+  in __
+  ex --
+  cel -- _ %55
+  _ _ _ _
+  _ _ _
+  _
+  sis,
+
+  o -- %69
+  _ _ _ %70
+  san -- na
+  in __
+  _ ex --
+  cel -- sis,
+  o -- %75
+  san --
+  _
+  na in __
+  ex --
+  cel -- _ %80
+  _ _ sis,
+  in ex --
+  cel -- _
+  _ _ sis,
+  in __ ex -- %85
+  cel -- _ _ _
+  _ _ sis,
+  o --
+  san --
+  na %90
+  in
+  ex --
+  cel -- _
+  _ _
+  _ %95
+
+  sis. %97 finis
+}

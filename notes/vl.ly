@@ -82,3 +82,98 @@ CredoViolino = {
     g g g fis g4 r\fermata \bar "|." %38 finis
   }
 }
+
+SanctusViolino = {
+  \relative c' {
+    \clef soprano
+    \key g \minor \time 4/4 \tempoSanctus
+    R1*5_\critnote %5
+    r2 r4 \tempoSanctusB d'~\f
+    d8 d16 d d8 d d4 c~
+    c b a4.\trill a8
+    g \tempoPleni d' d d d c16 h c8 c
+    c16 a b8 d4. es8 c4~ %10
+    c8 d b4 a8 b16 b a4
+    g r r8 d' g f!
+    es8. es16 es4 c8 c16 c c4 \noBreak
+    h1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      g1~\fE \noBreak %15
+    g4 fis g a
+    b2 a
+    r g~
+    g4 fis g a
+    b2 a %20
+    g1
+    r2 f'
+    \once \tieDashed e1~
+    e4 d2 cis4
+    d e f2 %25
+    e1~
+    e4 d2 cis4
+    d2 d
+    d c!
+    c b %30
+    a1
+    g2 d'
+    c1
+    d2 c
+    b4 c d2 %35
+    c1
+    d2 c
+    b a4 g
+    a1
+    R1*9 %48
+    g1~
+    g4 fis g a %50
+    b2 a
+    r g~
+    g4 fis g a
+    b2 a
+    g g'4 f! %55
+    es1~
+    es2 d
+    c1
+    b2 d
+    c1~ %60
+    c4 b2 a4
+    b c d2
+    c1~
+    c4  b2 a4
+    b c d2~ %65
+    d c4 b
+    a2 b
+    a1
+    g2 r
+    r4 a b c %70
+    d2 c
+    b4 c d2
+    r4 a b c
+    d2 c
+    b4 c d2~ %75
+    d4 g, c2~
+    c h
+    c g
+    f1
+    g2 f %80
+    es4 f g2
+    f1^\critnote
+    g2 f
+    es4 f g2
+    R1*2 %86
+    g1~
+    g4 fis g a
+    b2 a
+    r g~ %90
+    g4 fis g a
+    b2 a
+    g c^\critnote
+    c b
+    a1~ %95
+    a
+    g\breve*1/2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \newSpacingSection
+      R1.*11_\critnote %108
+    R1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}

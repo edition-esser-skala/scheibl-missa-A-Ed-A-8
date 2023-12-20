@@ -10,6 +10,10 @@ markKyrieDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Kyrie da capo"
 }
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
 
 
 tempoKyrie = \tempoMarkup "Allegro"
@@ -20,6 +24,11 @@ tempoCredo = \tempoMarkup "Allegro"
   tempoEtResurrexit = \tempoMarkup "Allegro"
   tempoMortuorum = \tempoMarkup "Adagio"
   tempoEtVitam = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Allegro"
+  tempoSanctusB = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro"
+  tempoOsanna = \tempoMarkup "Osanna · [Tempo deest]"
+  tempoBenedictus = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/trb1.ly"

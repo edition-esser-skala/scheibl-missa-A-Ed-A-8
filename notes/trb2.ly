@@ -81,3 +81,90 @@ CredoTromboneII = {
     b a a4\trill g r\fermata \bar "|." %38 finis
   }
 }
+
+SanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoSanctus
+    \after 4*23 \tempoSanctusB R1*6 %6
+    g4.\fE g8 g4 a~
+    a b8 d d4. d8
+    d \tempoPleni b b d es4. es8
+    d4 r b c
+    a d e d~
+    d8 h c4 d2
+    d8. c16 c8 g g g g4 \noBreak
+    g1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*17 %31
+    g1~\fE
+    g4 fis g a
+    b2 a
+    r g~ %35
+    g4 fis g a
+    b2 a
+    g r
+    r f'!
+    e1~ %40
+    e4 d2 cis4
+    d e f2
+    e1~
+    e4 d2 cis4
+    d1~ %45
+    d2 c!~
+    c b
+    a1
+    b2 r
+    r4 a b c %50
+    b2 c
+    b4 c d2
+    r4 a b c
+    b2 c
+    b4 c d2~ %55
+    d c~
+    c b
+    R1
+    b~
+    b4 a b c %60
+    d2 c
+    r \once \tieDashed b2~
+    b4 a b c
+    d2 c
+    b b %65
+    c c
+    d d
+    d1
+    d2 d
+    c1 %70
+    b2 c
+    r d
+    c1
+    b2 c
+    d2. h4 %75
+    g1
+    f'!
+    es2 c
+    d1~
+    d4 c2 h4 %80
+    c d es2
+    d1~
+    d4 c2 h4
+    c d es2~
+    es es %85
+    d4 c b c
+    d c b2
+    c1
+    d2 c
+    b4 c d2 %90
+    c1
+    d2 c
+    b a~
+    a g4 b
+    d1~ %95
+    d \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \newSpacingSection
+      R1.*11 %108
+    R1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}

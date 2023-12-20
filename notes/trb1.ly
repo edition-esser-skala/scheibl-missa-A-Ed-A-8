@@ -82,3 +82,99 @@ CredoTromboneI = {
     d8 es d4 d r\fermata \bar "|." %38 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoSanctus
+    \after 4*23 \tempoSanctusB R1*6 %6
+    f2\fE es4 e
+    fis g~ g4. fis8
+    g \tempoPleni g g g g4 f
+    f r b a~ %10
+    a g4. g8 g fis
+    g4. g8 g2
+    g4. g8 es8 es es4\noBreak
+    d1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*7 %21
+    d1~\fE
+    d4 cis d e
+    f2 e
+    r d~ %25
+    d4 cis d e
+    f2 e
+    d f
+    e a4 g
+    fis d g2~ %30
+    g fis
+    g b
+    a1~
+    a4 g2 fis4
+    g a b2 %35
+    a1~
+    a4 g2 fis4
+    g2 f4 e
+    f2 a
+    g1 %40
+    a2 g
+    f4 g a2
+    g1
+    a2 g
+    f a %45
+    g1
+    a2 d,
+    c d~
+    d d
+    c1 %50
+    d2 d
+    d1
+    c
+    d2 d
+    d1 %55
+    g
+    f2 f
+    es1
+    d2 f
+    es1 %60
+    f2 es
+    d4 es f2
+    es1
+    f2 es
+    d4 es f2 %65
+    es a4 g
+    fis2 g~
+    g fis
+    g b
+    a1~ %70
+    a4 g2 fis4
+    g a b2
+    a1~
+    a4 g2 fis4
+    g2 g %75
+    R1*2
+    \once \tieDashed c,1~
+    c4 h c d
+    es2 d %80
+    r c~
+    c4 h c d
+    es2 d
+    c r
+    g' g %85
+    a! g
+    d r
+    a'1~
+    a4 g2 fis4
+    g a b2 %90
+    a1~
+    a4 g2 fis4
+    g1
+    fis2 g~
+    g fis4 e %95
+    fis1 \noBreak
+    g\breve*1/2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \newSpacingSection
+      R1.*11 %108
+    R1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}

@@ -218,3 +218,246 @@ CredoBassFigures = \figuremode {
   <6[-]>4 <5>8. <\t>16 <6>4 <_+>
   <6>8 <6 5> <4> <_+> r2 %38 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoSanctus
+    \mvTr g'8\pE-\solo a b g d e fis d
+    g, a b g f'! g a f
+    b, c d b c d es c
+    d c b a g as' g f!
+    es d es c d c b a %5
+    g g' e cis d4 \clef treble \tempoSanctusB \mvTr d''\fE-\tutti
+    \clef bass h,,2 c
+    d1
+    g,8 \tempoPleni g' g g c4 f,!8 f
+    b b, r4 g'4. a8 %10
+    fis4. g8 c, c d4
+    g,8 g' es c h2
+    c c \noBreak
+    g1\fermata \bar "||"
+    \twotwotime \clef treble \time 2/2 \tempoOsanna \newSpacingSection
+      \mvTr \once \tieDashed g''1~\fE-\tuttiE \noBreak %15
+    g4 fis g a
+    b2 a
+    r g~
+    g4 fis g a
+    b2 a %20
+    g1
+    << {
+      r2 f'
+      e1~
+      e4 d2 cis4
+      d e f2 %25
+      e1~
+      e4 d2 cis4
+      d2 d~
+      d c!
+      c b %30
+      a1
+    } \\ {
+      \once \tieDashed d,1~
+      d4 cis d e
+      f2 e
+      r \once \tieDashed d~ %25
+      d4 cis d e
+      f2 e
+      d f
+      e a4 g
+      fis d g2 %39
+      g fis
+    } >>
+    \clef "treble_8" g,1~
+    g4 fis g a
+    b2 a
+    r g~ %35
+    g4 fis g a
+    b2 a
+    g r
+    \clef bass d1~
+    d4 cis d e %40
+    f2 e
+    r d~
+    d4 cis d e
+    f2 e
+    d f %45
+    e a4 g
+    fis d g2~
+    g fis
+    g b
+    a1~ %50
+    a4 g2 fis4
+    g a b2
+    a1~
+    a4 g2 fis4
+    g2 h %55
+    c4 b a g
+    a f! b2~
+    b a
+    b1
+    \clef "treble_8" b4 a b c %60
+    d2 c
+    r \once \tieDashed b~
+    b4 a b c
+    d2 c
+    b1 %65
+    c
+    d
+    d
+    \clef bass g,~
+    g4 fis g a %70
+    b2 a
+    r g~
+    g4 fis g a
+    b2 a
+    g f! %75
+    es1
+    d
+    c2 es
+    d g,
+    c d %80
+    es4 d c2
+    d g,
+    c d
+    es4 d c2
+    c'4 b! a! g %85
+    fis d g a
+    b a g2
+    d1~-\tasto
+    d~
+    d~ %90
+    d~
+    d
+    es2 a
+    d, g
+    d1 %95
+    d \noBreak
+    g,\breve*1/2\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \tempoBenedictus \newSpacingSection
+      \mvTr es''1\pE-\solo es2 \noBreak
+    d1 d2
+    c1 r2 %100
+    r f, as
+    b1 c2
+    as b1
+    es,2 r es'
+    d1 d2 %105
+    c1 c2~
+    c b4 a! g fis
+    g1 cis2
+    d1.\fermata \markOsannaDaCapo \bar "||" %109 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2 <5 4>4 <6>
+  <9> <6> <5 4> <6>
+  <9> <6> <9> <6>
+  <[9] _+>4 \bo <[5\+ 3]>8 \bc <[\t 3]> <7! _!>2
+  <6> <9 _+>4 \bo <[5\+ 3]>8 \bc <[\t 3]> %5
+  <6>4. <7 [_!]>8 <_+>2
+  <6 5> <9 [5] _->4 <8 6 _!>
+  <7 [5!] _+> <6 4> <5 \t> <\t _+>
+  r2 <9>8 <8> <7>4
+  <9>8 <8>4. <5>8 <6> <4 2>4 %10
+  <5>8 <6> <4 2>4 <6 5 _!>8 <[7 \t \t]> <4> <_+>
+  <_-> <_!> <6>4 q4. <5[!]>8
+  <9>4 <8>2.
+  <_!>1
+  r %15
+  r
+  r
+  r
+  r
+  r %20
+  r
+  r
+  r
+  r
+  r %25
+  r
+  r
+  r
+  r
+  r %30
+  r
+  r
+  <4 2>2. \once \bassFigureExtendersOn q4
+  <7>4 <6> <7> <6\\>
+  r1 %35
+  <4 2>2. \once \bassFigureExtendersOn q4
+  <7>4 <6> <7> <6\\>
+  r1
+  <[_!]>
+  <4 2!>2. \once \bassFigureExtendersOn q4 %40
+  <7!>4 <6> <7> <6\\>
+  r1
+  <4 2!>2. \once \bassFigureExtendersOn q4
+  <7!>4 <6> <7> <6\\>
+  r2 <6> %45
+  <7> <[_!]>
+  <6 5>1
+  <4 2>2 <6>
+  r <6>
+  <7>4 <6\\> <7> <8> %50
+  <[9] 4> <3> <4 2> <\t \t>
+  r2 <[6]>
+  <7>4 <6\\> <7> <8>
+  <9 4> <3> <4 2> <\t \t>
+  r2 <6>4 <5!> %55
+  <9>2 <[7] 5>
+  <6 5>1
+  <4 2>2 <[\t \t]>
+  r1
+  <9 4>2. \once \bassFigureExtendersOn q4 %60
+  <7>4 <6> <7> <6>
+  r1
+  <9 4>2. \once \bassFigureExtendersOn q4
+  <7>4 <6> <7> <6>
+  r1 %65
+  <7 _->2 <6 _!>4 <5 \t>
+  <[5] _+>2 <6 4>
+  <5 \t> <\t _+>
+  r1
+  <4 2>2. \once \bassFigureExtendersOn q4 %70
+  <7>4 <6> <7> <6\\>
+  r1
+  <4 2>2. \once \bassFigureExtendersOn q4
+  <7>4 <6> <7> <6\\>
+  <_->2 <4! 2> %75
+  <7> <6>
+  <7> <6!>
+  r <6>
+  <7 [5-]> <7 _!>
+  <9>4 <8> <7> <6!> %80
+  <6>1
+  <7 [5-]>2 <7 _!>
+  <9>4 <8> <7> <6!>
+  <6>1
+  <5>2. \once \bassFigureExtendersOn q4 %85
+  <6 5>1
+  <6>
+  <[_+]>
+  r
+  r %90
+  r
+  r
+  r2 <7>
+  <7 _+>1
+  <5 4>2 \bassFigureExtendersOn <5 _+>4 <5 2!> %95
+  <5 _+>1 \bassFigureExtendersOff
+  <[_!]>
+  r1.
+  <6!>
+  <8 4>2 <\t 3>1 %100
+  r2 <9 _-> <6>
+  <7->1 <5>2
+  <6> <4>2. <3>4
+  r1.
+  <6!> %105
+  <4>2 <3> \bo <[8] 6>4 \bc <[7-] 5>
+  <4! 2>2 <6> <9 4>4 <\t \t>
+  <9>2 <8> <7 [_!]>
+  <_+>1. %109 finis
+}
