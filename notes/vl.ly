@@ -177,3 +177,56 @@ SanctusViolino = {
     R1.\fermata \markOsannaDaCapo \bar "||" %109 finis
   }
 }
+
+AgnusViolino = {
+  \relative c' {
+    \clef soprano
+    \key g \minor \time 4/4 \tempoAgnus
+    d'4.\fE d8 es4 es8 es
+    es es16 es d8 c \appoggiatura c h4 h
+    r b2 c4
+    c8 a b4 b a
+    b r r2 %5
+    R1*5 %10
+    r4 c8\fE c f4 c8 c
+    c4 c8 c c4 b8 b
+    b4. b8 a2 \noBreak
+    a1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*3 %17
+    b4\f a r
+    b\p a r
+    R2.*6 %25
+    d4\f cis r
+    d\p cis r
+    R2.*7 %34
+    as4\f g r %35
+    as\p g r
+    R2.*3
+    d'2.\f %40
+    es8 c b4 a
+    b8 a g4 r
+    b a r
+    b\p a r
+    h2\f h4 %45
+    c d es
+    es d r
+    es\p d r
+    es2\f es4
+    d2. %50
+    c4 c2
+    b r4
+    des c r
+    des\p c r
+    c2\f c4 %55
+    b2.
+    a8 c b4 a
+    g2 r4
+    b a r
+    b\p a r %60
+    d2.\f
+    es8 c b4 a
+    g c a
+    g2.\fermata \bar "|." %64 finis
+  }
+}

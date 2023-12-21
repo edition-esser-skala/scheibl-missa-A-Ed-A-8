@@ -461,3 +461,142 @@ SanctusBassFigures = \figuremode {
   <9>2 <8> <7 [_!]>
   <_+>1. %109 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoAgnus
+    \mvTr g'1\fE-\tutti
+    fis2 f
+    e es
+    d4. es8 f2
+    b, \mvTr h\pE-\solo %5
+    c fis
+    g as
+    b b,
+    r4 g'2 f4
+    h,2 c %10
+    f,4 r \mvTr f'2\fE-\tutti
+    es! d
+    cis d \noBreak
+    d1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      \mvTr g4\pE-\solo a b \noBreak %15
+    c d d,
+    g a b
+    \mvTr cis\fE-\tutti d r
+    R2.
+    \mvTr d,4\pE-\solo e f! %20
+    g2 f4
+    g a a,
+    d e f
+    g a a,
+    d e f %25
+    \mvTr gis\fE-\tutti a r
+    R2.
+    \mvTr d,4\pE-\solo e f
+    g! b h
+    c b a %30
+    b c c,
+    f, g a
+    b c c,
+    f g a
+    \mvTr h\fE-\tuttiE c r %35
+    R2.
+    r4 \mvTr d\pE-\soloE fis
+    g g,8 a b4
+    c d d,
+    \mvTr g\fE-\tutti a b %40
+    c d d,
+    g a b
+    cis d r
+    R2.
+    r4 g f! %45
+    es d c4
+    fis g r
+    R2.
+    r4 f,! a
+    b c d %50
+    es f f,
+    b b' g
+    e f r
+    R2.
+    r4 d! fis %55
+    g g,8 a b4
+    c d d,
+    g g' e
+    cis d r
+    R2. %60
+    g,4 a b
+    c d d,
+    es' c d
+    g,2.\fermata \bar "|." %64 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  <[5] 3>2 <6 4>
+  <7> <4! 2>
+  <6>4 <5[-]> <5> <6>
+  <7> <6>8 <6 5> <4>4 <3>
+  r2 <7-> %5
+  <4>4 <3> <7 [_!]>2
+  <4>4 <3[-]> <9 7> <8 6[!]>
+  <7- 5> <6 4> <\t \t> <5 3>
+  r <5> <6!> <_->
+  <7->2 <4>4 <_!> %10
+  <_!>1
+  <6 4 _+>2 <7 _+>4 <6 4>
+  <7 5 [_!]>2 <5 4>4 \bassFigureExtendersOn <5 _+>8 <5 2!>
+  <5 _+>1 \bassFigureExtendersOff
+  r2. %15
+  <6>4 <6 4> <[5] _+>
+  r2.
+  <7 _!>4 <_+>2
+  r2.
+  <[_!]> %20
+  <9>4 <8> <6>
+  <6!> \bo <[6] 4> \bc <[5!] _+>
+  r2.
+  r4 <6 4> <[5!] _+>
+  r2. %25
+  <7 [_!]>4 <[5!] _+>2
+  r2.
+  r
+  <9>4 <6> <5>
+  <4> <4!> <[6]> %30
+  <6> <[_!]>2
+  r2.
+  <6>4 <6 4> <[5 _!]>
+  r2.
+  <7->4 <_!>2 %35
+  r2.
+  r4 <7 [_+]>2
+  <9>4 <8>2
+  <6 5>4 \bo <[6] 4> \bc <[5] _+>
+  r2. %40
+  <6>4 <6 4> <[5] _+>
+  r2.
+  <7 _!>4 <_+>2
+  r2.
+  r4 <_!> <\t> %45
+  <6>2.
+  <7>4 <_!>2
+  r2.
+  r4 <7>2
+  \bo <[9]>4 <7> \bc <[6]> %50
+  <6> <4> <3>
+  r2.
+  <7->4 <_!>2
+  r2.
+  r4 <7 [_+]>2 %55
+  <9>4 <8> <6>
+  <6 [5]> <6 4> <[5] _+>
+  r2.
+  <7 _!>4 <_+>2
+  r2. %60
+  <5>2 \once \bassFigureExtendersOn q4
+  <6> <6 4> <7 _+>
+  <5> <6> <7 _+>
+  r2. %64 finis
+}

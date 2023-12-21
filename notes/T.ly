@@ -379,3 +379,114 @@ SanctusTenoreLyrics = \lyricmode {
   _ mi --
   ni. %109 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr b4.\fE^\tuttiE b8 c4 c8 c
+    c c16 c c8 c d4 d
+    c4. c8 g4 es'8([ c)]
+    d2( c)\trill
+    b4 r r2 %5
+    R1*5 %10
+    r2 \mvTr a4.\fE^\tuttiE a8
+    a4 a8 a a4 b8 d
+    e4 e8([ d)] d2 \noBreak
+    d1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*3 %17
+    \mvTr e8([\fE^\tutti d)] d4 r
+    e8([\p d)] d4 r
+    R2.*6 %25
+    \mvTr h8([\fE^\tutti d)] a4 r
+    h8([\p d)] a4 r
+    R2.*4 %31
+    \mvTr c2.\pE^\solo
+    d8([ b)] a4 g
+    a8([ g)] f4 r
+    \mvTr d'8([\fE^\tutti f)] c4 r %35
+    d8([\p f)] c4 r
+    c2^\solo c4
+    b2.
+    a8([ c)] b4( a)
+    g2 \mvTr g4\fE^\tutti %40
+    a b8([ c)] d4
+    d d r
+    g, fis r
+    g\p fis r
+    r d'\f d %45
+    c2 c4
+    c h r
+    c\p h r
+    c2\f c4
+    c( b!8[ a] b4) %50
+    b b( a)
+    b2 r4
+    b a r
+    b\p a r
+    r d\fE d %55
+    d2.
+    es4 d2
+    d r4
+    e8([ d)] d4 r
+    e8([\p d)] d4 r %60
+    b2.\f
+    a4 b( d)
+    b es( d)
+    d2.\fermata \bar "|." %64 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re __
+  no --
+  bis.
+
+  A -- gnus %11
+  De -- i, qui tol -- lis pec --
+  ca -- ta __ mun --
+  di:
+
+  Pa -- cem, %18
+  pa -- cem,
+
+  pa -- cem, %26
+  pa -- cem,
+
+  do -- %32
+  na no -- bis
+  pa -- cem,
+  pa -- cem, %35
+  pa -- cem,
+  do -- na
+  no --
+  bis pa --
+  cem, do -- %40
+  na no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa -- cem,
+  do -- na %45
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- %50
+  bis pa --
+  cem,
+  pa -- cem,
+  pa -- cem,
+  do -- na %55
+  no --
+  bis pa --
+  cem,
+  pa -- cem,
+  pa -- cem, %60
+  pa --
+  cem, pa --
+  cem, pa --
+  cem. %64 finis
+}

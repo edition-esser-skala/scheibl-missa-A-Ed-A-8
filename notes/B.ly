@@ -348,3 +348,114 @@ SanctusBassoLyrics = \lyricmode {
 
   sis. %97 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr g'4.\fE^\tutti g8 g4 g8 g
+    fis fis16 fis fis8 fis f4 f
+    e e es2(
+    d4.) es8 f2
+    b,4 r r2 %5
+    R1*5 %10
+    r2 \mvTr f'4.\fE^\tutti f8
+    es!4 es8 es d4 d8 d
+    cis4 cis d2 \noBreak
+    d1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*3 %17
+    \mvDl cis'4\fE^\tutti d r
+    cis,\p d r
+    R2.*6 %25
+    \mvTr gis4\fE^\tutti a r
+    gis\p a r
+    R2.*4 %31
+    \mvTr a2.\pE^\solo
+    b8([ g)] f4 e
+    f8([ e)] f4 r
+    \mvTr h,\fE^\tuttiE c r %35
+    h\p c r
+    a'2^\solo a4
+    a( g8[ fis] g4)
+    g g( fis)
+    g2 \mvTr b,4\fE^\tuttiE %40
+    c d2
+    g, r4
+    cis d r
+    cis\p d r
+    r g\f f! %45
+    es( d) c
+    fis g r
+    fis\p g r
+    r f,!\f a
+    b( c d) %50
+    es f2
+    b, r4
+    e f r
+    e\p f r
+    r d\f fis %55
+    g( g,8[ a] b4)
+    c d2
+    g, r4
+    cis d r
+    cis\p d r %60
+    g,(\f a b)
+    c d2
+    es4 c( d)
+    g,2 r4\fermata \bar "|." %64 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re --
+  re no --
+  bis.
+
+  A -- gnus %11
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+
+  Pa -- cem, %18
+  pa -- cem,
+
+  pa -- cem, %26
+  pa -- cem,
+
+  do -- %32
+  na no -- bis
+  pa -- cem,
+  pa -- cem, %35
+  pa -- cem,
+  do -- na
+  no --
+  bis pa --
+  cem, do -- %40
+  na no --
+  bis
+  pa -- cem,
+  pa -- cem,
+  do -- na %45
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- %50
+  bis pa --
+  cem,
+  pa -- cem,
+  pa -- cem,
+  do -- na %55
+  no --
+  bis pa --
+  cem,
+  pa -- cem,
+  pa -- cem, %60
+  do -- na no --
+  bis pa --
+  cem, pa --
+  cem. %64 finis
+}
