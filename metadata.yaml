@@ -13,4 +13,6 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/729.html
     license: public domain
     principal: true
-imslp:
+imslp: Mass_in_G_minor_(Scheibl,_Johann_Adam)
+parts:
+  vl: Violetta
